@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="Device" value="iPhone7"/>
+  <test parallel="tests" name="iPhone7 Test(failed)">
+    <parameter name="Device" value="iPhone7"/>
+    <classes>
+      <class name="browserStack.Javasample2">
+        <methods>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="main"/>
+        </methods>
+      </class> <!-- browserStack.Javasample2 -->
+    </classes>
+  </test> <!-- iPhone7 Test(failed) -->
+  <test parallel="tests" name="iPhone8Plus Test(failed)">
+    <parameter name="Device" value="iPhone8Plus"/>
+    <classes>
+      <class name="browserStack.Javasample2">
+        <methods>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="main"/>
+        </methods>
+      </class> <!-- browserStack.Javasample2 -->
+    </classes>
+  </test> <!-- iPhone8Plus Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

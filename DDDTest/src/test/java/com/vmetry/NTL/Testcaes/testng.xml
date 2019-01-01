@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testrun">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.vmetry.NTL.Testcaes.HomePageTest"/>
+      <class name="com.vmetry.NTL.Testcaes.LogInPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- testrun -->

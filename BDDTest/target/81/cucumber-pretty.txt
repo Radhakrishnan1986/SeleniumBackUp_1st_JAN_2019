@@ -1,0 +1,58 @@
+@sample
+Feature: Validate NTL taxi home page
+
+  Scenario Outline: Validate NTL home page with valid data [90m# Home.feature:3[0m
+    [36mGiven [0m[36mOpen Browser as <BROWSER>[0m
+    [36mThen [0m[36mEnter URL as <URL>[0m
+    [36mThen [0m[36mEnter User name as <USERNAME>[0m
+    [36mAnd [0m[36mEnter phone number as <MOBILENUMBER>[0m
+    [36mWhen [0m[36mSelect pickup address as <PICKADRESS>[0m
+    [36mThen [0m[36mSelect drop adress as <DROPADDRESS>[0m
+    [36mAnd [0m[36mSelect vehicle type as <VEHICLETYPE>[0m
+    [36mBut [0m[36mDont select book button[0m
+
+    Examples: 
+
+  @sample
+  Scenario Outline: Validate NTL home page with valid data [90m# Home.feature:14[0m
+    [32mGiven [0m[32mOpen Browser as [0m[32m[1mFIREFOX[0m                          [90m# SampleTest.openBrowser(String)[0m
+    [32mThen [0m[32mEnter URL as [0m[32m[1mhttp://www.ntltaxi.com/[0m              [90m# SampleTest.enterUrl(String)[0m
+    [32mThen [0m[32mEnter User name as [0m[32m[1mRadhakrishnan[0m                  [90m# SampleTest.enterUSerName(String)[0m
+    [32mAnd [0m[32mEnter phone number as [0m[32m[1m99999999999[0m                  [90m# SampleTest.enterPhoneNumber(String)[0m
+    [32mWhen [0m[32mSelect pickup address as [0m[32m[1mAdaya[0m                    [90m# SampleTest.selectPickUpAddress(String)[0m
+    [32mThen [0m[32mSelect drop adress as [0m[32m[1mTambaram[0m                    [90m# SampleTest.selectDropAddress(String)[0m
+    [32mAnd [0m[32mSelect vehicle type as [0m[32m[1mSedan[0m                       [90m# SampleTest.selectVehicleType(String)[0m
+    [32mBut [0m[32mDont select book button[0m                            [90m# SampleTest.dontSelectbookButton()[0m
+
+  @sample
+  Scenario Outline: Validate NTL home page with valid data [90m# Home.feature:15[0m
+    [32mGiven [0m[32mOpen Browser as [0m[32m[1mFIREFOX[0m                          [90m# SampleTest.openBrowser(String)[0m
+    [32mThen [0m[32mEnter URL as [0m[32m[1mhttp://www.ntltaxi.com/[0m              [90m# SampleTest.enterUrl(String)[0m
+    [32mThen [0m[32mEnter User name as [0m[32m[1mABC[0m                            [90m# SampleTest.enterUSerName(String)[0m
+    [32mAnd [0m[32mEnter phone number as [0m[32m[1m2222222222[0m                   [90m# SampleTest.enterPhoneNumber(String)[0m
+    [32mWhen [0m[32mSelect pickup address as [0m[32m[1mAdaya[0m                    [90m# SampleTest.selectPickUpAddress(String)[0m
+    [32mThen [0m[32mSelect drop adress as [0m[32m[1mTambaram[0m                    [90m# SampleTest.selectDropAddress(String)[0m
+    [32mAnd [0m[32mSelect vehicle type as [0m[32m[1mSedan[0m                       [90m# SampleTest.selectVehicleType(String)[0m
+    [32mBut [0m[32mDont select book button[0m                            [90m# SampleTest.dontSelectbookButton()[0m
+
+  @sample
+  Scenario Outline: Validate NTL home page with valid data [90m# Home.feature:16[0m
+    [32mGiven [0m[32mOpen Browser as [0m[32m[1mFIREFOX[0m                          [90m# SampleTest.openBrowser(String)[0m
+    [32mThen [0m[32mEnter URL as [0m[32m[1mhttp://www.ntltaxi.com/[0m              [90m# SampleTest.enterUrl(String)[0m
+    [32mThen [0m[32mEnter User name as [0m[32m[1mabcd[0m                           [90m# SampleTest.enterUSerName(String)[0m
+    [32mAnd [0m[32mEnter phone number as [0m[32m[1m3333333333[0m                   [90m# SampleTest.enterPhoneNumber(String)[0m
+    [32mWhen [0m[32mSelect pickup address as [0m[32m[1mAdaya[0m                    [90m# SampleTest.selectPickUpAddress(String)[0m
+    [32mThen [0m[32mSelect drop adress as [0m[32m[1mTambaram[0m                    [90m# SampleTest.selectDropAddress(String)[0m
+    [32mAnd [0m[32mSelect vehicle type as [0m[32m[1mSedan[0m                       [90m# SampleTest.selectVehicleType(String)[0m
+    [32mBut [0m[32mDont select book button[0m                            [90m# SampleTest.dontSelectbookButton()[0m
+
+  @sample
+  Scenario Outline: Validate NTL home page with valid data [90m# Home.feature:17[0m
+    [32mGiven [0m[32mOpen Browser as [0m[32m[1mFIREFOX[0m                          [90m# SampleTest.openBrowser(String)[0m
+    [32mThen [0m[32mEnter URL as [0m[32m[1mhttp://www.ntltaxi.com/[0m              [90m# SampleTest.enterUrl(String)[0m
+    [32mThen [0m[32mEnter User name as [0m[32m[1mTest[0m                           [90m# SampleTest.enterUSerName(String)[0m
+    [32mAnd [0m[32mEnter phone number as [0m[32m[1m4444444444[0m                   [90m# SampleTest.enterPhoneNumber(String)[0m
+    [32mWhen [0m[32mSelect pickup address as [0m[32m[1mAdaya[0m                    [90m# SampleTest.selectPickUpAddress(String)[0m
+    [32mThen [0m[32mSelect drop adress as [0m[32m[1mTambaram[0m                    [90m# SampleTest.selectDropAddress(String)[0m
+    [32mAnd [0m[32mSelect vehicle type as [0m[32m[1mSedan[0m                       [90m# SampleTest.selectVehicleType(String)[0m
+    [32mBut [0m[32mDont select book button[0m                            [90m# SampleTest.dontSelectbookButton()[0m

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="Test(failed)">
+    <groups>
+      <run>
+        <include name="Booking"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="dec18Test.October27Test">
+        <methods>
+          <include name="logintest"/>
+        </methods>
+      </class> <!-- dec18Test.October27Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

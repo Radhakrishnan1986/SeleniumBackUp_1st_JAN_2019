@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-12-30T08:33:27Z" name="Default suite" finished-at="2018-12-30T08:33:27Z" duration-ms="55">
+    <groups>
+    </groups>
+    <test started-at="2018-12-30T08:33:27Z" name="Default test" finished-at="2018-12-30T08:33:27Z" duration-ms="55">
+      <class name="roughWorkTest.TestNGTest">
+        <test-method signature="sample()[pri:0, instance:roughWorkTest.TestNGTest@1e04fa0a]" started-at="2018-12-30T08:33:27Z" name="sample" finished-at="2018-12-30T08:33:27Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample -->
+        <test-method signature="sample()[pri:0, instance:roughWorkTest.TestNGTest@4738a206]" started-at="2018-12-30T08:33:27Z" name="sample" finished-at="2018-12-30T08:33:27Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample -->
+        <test-method signature="sample()[pri:0, instance:roughWorkTest.TestNGTest@66d3eec0]" started-at="2018-12-30T08:33:27Z" name="sample" finished-at="2018-12-30T08:33:27Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample -->
+        <test-method signature="sample2()[pri:0, instance:roughWorkTest.TestNGTest@1e04fa0a]" started-at="2018-12-30T08:33:27Z" name="sample2" finished-at="2018-12-30T08:33:27Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample2 -->
+        <test-method signature="sample2()[pri:0, instance:roughWorkTest.TestNGTest@4738a206]" started-at="2018-12-30T08:33:27Z" name="sample2" finished-at="2018-12-30T08:33:27Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample2 -->
+        <test-method signature="sample2()[pri:0, instance:roughWorkTest.TestNGTest@66d3eec0]" started-at="2018-12-30T08:33:27Z" name="sample2" finished-at="2018-12-30T08:33:27Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample2 -->
+      </class> <!-- roughWorkTest.TestNGTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
