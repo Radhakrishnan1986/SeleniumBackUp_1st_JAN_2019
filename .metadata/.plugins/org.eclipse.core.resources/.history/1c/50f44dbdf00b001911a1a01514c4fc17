@@ -1,0 +1,27 @@
+package dec18Test;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class ListenerTest {
+
+	public static void main(String[] args) {
+
+		System.setProperty("webdriver.chrome.driver","C:\\SeleniumWorkspace\\WebdriverTest\\Browser\\chromedriver.exe");
+		WebDriver wd = new ChromeDriver();
+
+		wd.manage().window().maximize();
+		wd.get("https://www.google.com/");
+		WebElement input = wd.findElement(By.name("q"));
+		input.sendKeys("ABC");
+		input.submit();
+		
+		wd.navigate().back();
+		wd.navigate().forward();
+		wd.navigate().refresh();
+
+	}
+
+}

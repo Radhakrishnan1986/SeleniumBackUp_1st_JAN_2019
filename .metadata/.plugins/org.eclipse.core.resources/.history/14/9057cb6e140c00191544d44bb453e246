@@ -1,0 +1,18 @@
+package roughWorkTest;
+
+import org.testng.IRetryAnalyzer;
+import org.testng.ITestResult;
+
+public class TestNGTest implements IRetryAnalyzer {
+
+	private int count =0;
+	private int maxxount = 3;
+	
+	@Override
+	public boolean retry(ITestResult iTestResults) {
+	
+		return false;
+	}
+
+	
+}

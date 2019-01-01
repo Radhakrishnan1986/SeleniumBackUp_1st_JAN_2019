@@ -1,0 +1,10 @@
+package roughWorkTest;
+
+public class TestNGTest {
+
+	public void sample() {
+		System.out.println("Username");
+		System.out.println("Password");
+	}
+	
+}

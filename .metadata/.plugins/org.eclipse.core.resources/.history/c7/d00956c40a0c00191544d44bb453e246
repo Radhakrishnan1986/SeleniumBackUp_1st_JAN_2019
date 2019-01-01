@@ -1,0 +1,48 @@
+package roughWorkTest;
+
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+public class TestNGTest {
+
+	@Test(dataProvider="dataset")
+	public void sample(String Username, String Password ) {
+		System.out.println(Username);
+		System.out.println(Password);
+	}
+	
+	@DataProvider(name ="dataset")
+	public static Object[][] dataset() {
+		Object data[][] = new Object[3][2];
+		data[0][0] = "Admin";
+		data[0][1] = "Admin-Password";
+		
+		data[1][0] = "Staff";
+		data[1][1] = "Staff-Password";
+		
+		data[2][0] = "Student";
+		data[2][1] = "Student-Password";
+		return data;
+	}
+	
+	@Test(dataProvider="dataset2")
+	public void sample2(String Username, String Password ) {
+		System.out.println(Username);
+		System.out.println(Password);
+	}
+	
+	@DataProvider(name ="dataset2")
+	public static Object[][] dataset2() {
+		Object data[][] = new Object[3][2];
+		data[0][0] = "2Admin";
+		data[0][1] = "2Admin-Password";
+		
+		data[1][0] = "2Staff";
+		data[1][1] = "2Staff-Password";
+		
+		data[2][0] = "2Student";
+		data[2][1] = "2Student-Password";
+		return data;
+	}
+	
+}

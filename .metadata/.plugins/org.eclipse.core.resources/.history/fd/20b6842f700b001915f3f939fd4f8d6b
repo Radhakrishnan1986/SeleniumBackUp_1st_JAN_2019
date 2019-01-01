@@ -1,0 +1,19 @@
+package roughWorkTest;
+
+public class RoughWork {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+/*
+ * Name
+ * ID
+ * linkText 
+ * PartialLinkText 
+ * className
+ * TagName
+ * CSSSelector
+ * Xpath(Absolute and Relative)
+ */
+	}
+
+}

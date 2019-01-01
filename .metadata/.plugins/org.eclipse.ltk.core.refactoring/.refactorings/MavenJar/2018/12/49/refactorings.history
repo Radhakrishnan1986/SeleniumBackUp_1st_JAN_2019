@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;sampeTest&apos; to &apos;sampleTest&apos;&#x0D;&#x0A;- Original project: &apos;MavenJar&apos;&#x0D;&#x0A;- Original element: &apos;MavenJar/src/main/java/sampeTest&apos;&#x0D;&#x0A;- Renamed element: &apos;MavenJar/src/main/java/sampleTest&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update fully qualified names in &apos;*&apos; files&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;sampeTest&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;sampeTest" name="sampleTest" patterns="*" qualified="true" references="true" stamp="1543773956071" textual="false" version="1.0"/>
+</session>

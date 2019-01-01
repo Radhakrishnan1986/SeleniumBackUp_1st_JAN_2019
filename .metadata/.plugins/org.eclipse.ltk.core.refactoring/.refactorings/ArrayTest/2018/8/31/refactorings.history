@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;arrayTest.ArrayTest&apos; to &apos;SigleDimentionalArray&apos;&#x0D;&#x0A;- Original project: &apos;ArrayTest&apos;&#x0D;&#x0A;- Original element: &apos;arrayTest.ArrayTest&apos;&#x0D;&#x0A;- Renamed element: &apos;arrayTest.SigleDimentionalArray&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ArrayTest&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;arrayTest{ArrayTest.java[ArrayTest" matchStrategy="1" name="SigleDimentionalArray" qualified="false" references="true" similarDeclarations="false" stamp="1533384366274" textual="false" version="1.0"/>
+</session>
