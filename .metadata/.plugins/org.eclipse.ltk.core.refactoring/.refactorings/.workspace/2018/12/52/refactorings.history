@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;RoughworkTest&apos; to &apos;WRoughworkTest_NotUsed&apos;" description="Rename resource &apos;RoughworkTest&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/RoughworkTest" name="WRoughworkTest_NotUsed" stamp="1546090099233" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;WRoughworkTest_NotUsed&apos; to &apos;WZRoughworkTest_NotUsed&apos;" description="Rename resource &apos;WRoughworkTest_NotUsed&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/WRoughworkTest_NotUsed" name="WZRoughworkTest_NotUsed" stamp="1546090133643" updateReferences="true"/>
-</session>

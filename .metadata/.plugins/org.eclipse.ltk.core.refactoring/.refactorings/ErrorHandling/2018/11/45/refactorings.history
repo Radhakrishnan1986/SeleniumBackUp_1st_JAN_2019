@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;throwableTest.FinalyTest&apos; to &apos;FinallyTest&apos;&#x0D;&#x0A;- Original project: &apos;ErrorHandling&apos;&#x0D;&#x0A;- Original element: &apos;throwableTest.FinalyTest&apos;&#x0D;&#x0A;- Renamed element: &apos;throwableTest.FinallyTest&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update fully qualified names in &apos;*&apos; files&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;FinalyTest&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;throwableTest{FinalyTest.java[FinalyTest" matchStrategy="1" name="FinallyTest" patterns="*" qualified="true" references="true" similarDeclarations="false" stamp="1541302440543" textual="false" version="1.0"/>
-</session>
